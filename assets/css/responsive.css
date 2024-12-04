@@ -315,6 +315,8 @@ Version      : 1.0
 
 @media only screen and (max-width: 767px) {
 
+
+
     nav.main-menu {
         background: transparent;
         border-radius: 50px;
@@ -467,6 +469,7 @@ Version      : 1.0
 
     .hero-content {
         padding: 0px 10px;
+        width: 95%;
     }
 
     .hero-content h2 {
