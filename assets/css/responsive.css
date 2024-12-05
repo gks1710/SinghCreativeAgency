@@ -22,6 +22,10 @@ Version      : 1.0
 
     }
 
+    .pts-3 {
+        padding-top: 0rem !important;
+      }
+
     .main-hero-area {
         padding-top: 140px;
     }
@@ -31,6 +35,9 @@ Version      : 1.0
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
+    .pts-3 {
+        padding-top: 0rem !important;
+      }
 
     .single-project-page-right {
         margin-top: 50px;
@@ -316,8 +323,16 @@ Version      : 1.0
 
 @media only screen and (max-width: 767px) {
 
+    .pts-3 {
+        padding-top: 0rem !important;
+      }
 
 
+    .founder-say-part h3 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    
     nav.main-menu {
         background: transparent;
         border-radius: 50px;
@@ -593,6 +608,14 @@ Version      : 1.0
     .hero-content {
         padding: 0;
         width: 100%;
+    }
+
+    .pts-3 {
+        padding-top: 0rem !important;
+    }
+    .founder-say-part h3 {
+        font-size: 18px;
+        line-height: 35px;
     }
 }
 
