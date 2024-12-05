@@ -1,4 +1,4 @@
-﻿/*
+/*
 * ----------------------------------------------------------------------------------------
 Author       : Tanvir Hossain
 Template Name: Designpro - Productized Design Agency website template
@@ -1389,10 +1389,11 @@ nav.main-menu {
 }
 
 .founder-say-part h3 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 48px;
     color: var(--white-color);
     font-weight: 400;
+    text-align: justify;
 }
 
 .founder-say-part h3 span {
@@ -1437,8 +1438,7 @@ nav.main-menu {
 .info-item {
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    padding-top: 30px;
-    padding-left: 30px;
+    padding: 25px;
     border-radius: 15px;
     border: 1px solid #bebebe;
 }
@@ -3431,3 +3431,7 @@ ul.blog_pagination li a:hover {
     padding: 25px;
     border: 1px solid var(--border-color);
 }
+
+.pts-3 {
+    padding-top: 1rem !important;
+  }
